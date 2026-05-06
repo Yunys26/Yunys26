@@ -39,3 +39,128 @@ const yunys = {
   },
   principle: "Build useful tools. Keep code clean. Automate boring things."
 };
+```
+
+---
+
+## 🚀 What I build
+
+<div align="center">
+
+| Area | What I do |
+|---|---|
+| 🤖 Telegram Bots | Transaction trackers, price alerts, admin tools, automated notifications |
+| ₿ Crypto Tools | USDT TRC20 monitoring, exchange integrations, arbitrage helpers |
+| 🛡 AML Checks | Risk scoring, suspicious wallet datasets, transaction analysis |
+| 🌐 Web Apps | Next.js interfaces, dashboards, multilingual websites |
+| ⚙️ Backend | APIs, database models, integrations, queues, logging |
+| 🐳 Infrastructure | Docker, VPS, Nginx, SSL, deployment automation |
+
+</div>
+
+---
+
+## 🧰 Tech Stack
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=ts,js,nodejs,react,nextjs,postgres,prisma,docker,nginx,git,github,githubactions,vscode,bash,linux" />
+
+</div>
+
+---
+
+## 🔥 Current focus
+
+- Building Telegram bots with **TypeScript + Telegraf**
+- Tracking crypto transactions on **TRON / USDT TRC20**
+- Creating AML-style checks for wallet risk analysis
+- Improving backend architecture with **Prisma + PostgreSQL**
+- Automating deployments with **Docker, Nginx and GitHub Actions**
+- Building clean UI with **Next.js + React**
+
+---
+
+## 📌 Featured Projects
+
+<div align="center">
+
+<a href="https://github.com/Yunys26/bot-marvel-wallet-tracker">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Yunys26&repo=bot-marvel-wallet-tracker&theme=github_dark&border_color=22c55e&title_color=22c55e&icon_color=22c55e" />
+</a>
+
+<a href="https://github.com/Yunys26/4px-test">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Yunys26&repo=4px-test&theme=github_dark&border_color=22c55e&title_color=22c55e&icon_color=22c55e" />
+</a>
+
+</div>
+
+---
+
+## 📊 GitHub Analytics
+
+<div align="center">
+
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=Yunys26&show_icons=true&theme=github_dark&hide_border=true&title_color=22c55e&icon_color=22c55e" />
+
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yunys26&layout=compact&theme=github_dark&hide_border=true&title_color=22c55e" />
+
+</div>
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=Yunys26&theme=github-dark-blue&hide_border=true&ring=22c55e&fire=22c55e&currStreakLabel=22c55e" />
+
+</div>
+
+---
+
+## 🏆 Achievements
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=Yunys26&theme=darkhub&no-frame=true&no-bg=true&margin-w=12&margin-h=12&column=6" />
+
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Yunys26/Yunys26/output/github-contribution-grid-snake-dark.svg" />
+
+</div>
+
+---
+
+## 🌍 Connect with me
+
+<div align="center">
+
+<a href="https://t.me/aliev_y">
+  <img src="https://img.shields.io/badge/Telegram-@aliev__y-22c55e?style=for-the-badge&logo=telegram&logoColor=white" />
+</a>
+
+<a href="https://github.com/Yunys26">
+  <img src="https://img.shields.io/badge/GitHub-Yunys26-111827?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=Yunys26&style=for-the-badge&color=22c55e" />
+
+</div>
+
+<div align="center">
+
+### “Code is not just syntax. Code is a tool that solves real problems.”
+
+</div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=130&section=footer&color=0:22c55e,50:1e293b,100:0f172a" />
