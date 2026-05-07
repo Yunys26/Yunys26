@@ -105,28 +105,9 @@ const yunys = {
 
 <img src="./assets/neon-divider.svg" width="100%" alt="neon divider" />
 
-# ⚡ What I Build
+# 🧰 Tech Radar
 
-<div align="center">
-
-| Category | Examples |
-|---|---|
-| 🤖 **Telegram Bots** | transaction trackers, price alerts, admin bots, service notifications |
-| ₮ **Crypto Automation** | wallet monitoring, USDT TRC20 tracking, exchange data aggregation |
-| 🛡 **AML-style Tools** | risk labels, suspicious address datasets, transaction checks |
-| 📈 **Market Tools** | spread detection, futures alerts, API polling, digest notifications |
-| 🌐 **Web Apps** | Next.js websites, dashboards, forms, SEO-ready pages |
-| 🧰 **Backend Systems** | REST APIs, services, database models, queues, schedulers |
-| 🐳 **Infrastructure** | Docker, Nginx, SSL, VPS, GitHub Actions |
-| 📚 **Documentation** | project structure, setup guides, troubleshooting notes |
-
-</div>
-
-<img src="./assets/system-map.svg" width="100%" alt="animated build map" />
-
-<img src="./assets/neon-divider.svg" width="100%" alt="neon divider" />
-
-# 🧰 Tech Arsenal
+<img src="./assets/tech-radar.svg" width="100%" alt="animated tech radar" />
 
 <div align="center">
 
@@ -139,7 +120,7 @@ const yunys = {
 <img src="https://img.shields.io/badge/TypeScript-main_language-3178C6?style=for-the-badge&logo=typescript&logoColor=white&labelColor=020617" />
 <img src="https://img.shields.io/badge/JavaScript-runtime_logic-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111827&labelColor=020617" />
 <img src="https://img.shields.io/badge/C-learning_foundations-00599C?style=for-the-badge&logo=c&logoColor=white&labelColor=020617" />
-<img src="https://img.shields.io/badge/Bash-scripts_&_automation-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white&labelColor=020617" />
+<img src="https://img.shields.io/badge/Bash-scripts_and_automation-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white&labelColor=020617" />
 
 ## Backend
 
@@ -190,6 +171,27 @@ const yunys = {
 
 <img src="./assets/neon-divider.svg" width="100%" alt="neon divider" />
 
+# ⚡ What I Build
+
+<div align="center">
+
+| Category | Examples |
+|---|---|
+| 🤖 **Telegram Bots** | transaction trackers, price alerts, admin bots, service notifications |
+| ₮ **Crypto Automation** | wallet monitoring, USDT TRC20 tracking, exchange data aggregation |
+| 🛡 **AML-style Tools** | risk labels, suspicious address datasets, transaction checks |
+| 📈 **Market Tools** | spread detection, futures alerts, API polling, digest notifications |
+| 🌐 **Web Apps** | Next.js websites, dashboards, forms, SEO-ready pages |
+| 🧰 **Backend Systems** | REST APIs, services, database models, queues, schedulers |
+| 🐳 **Infrastructure** | Docker, Nginx, SSL, VPS, GitHub Actions |
+| 📚 **Documentation** | project structure, setup guides, troubleshooting notes |
+
+</div>
+
+<img src="./assets/pipeline.svg" width="100%" alt="animated production pipeline" />
+
+<img src="./assets/neon-divider.svg" width="100%" alt="neon divider" />
+
 # 🧠 Engineering DNA
 
 <div align="center">
@@ -205,6 +207,8 @@ const yunys = {
 | 🚀 Deploy | Docker first, documented commands, reproducible setup |
 
 </div>
+
+<img src="./assets/architecture.svg" width="100%" alt="animated architecture diagram" />
 
 ---
 
@@ -267,43 +271,6 @@ src/
 ```
 
 <img src="./assets/terminal.svg" width="100%" alt="animated terminal profile" />
-
----
-
-# 🧭 Development Flow
-
-```mermaid
-flowchart LR
-    A[Idea] --> B[Architecture]
-    B --> C[Types & Contracts]
-    C --> D[Services]
-    D --> E[Bot / UI]
-    E --> F[Logs]
-    F --> G[Docker]
-    G --> H[Deploy]
-    H --> I[Monitor]
-    I --> J[Improve]
-```
-
----
-
-# 📊 GitHub Activity
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Yunys26&theme=github-dark&hide_border=true&area=true&custom_title=Yunys%20Aliev%20Contribution%20Graph&color=22c55e&line=22c55e&point=ffffff&area_color=22c55e" />
-
-</div>
-
----
-
-# 🏆 Trophy Wall
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Yunys26&theme=matrix&no-frame=true&no-bg=true&margin-w=12&margin-h=12&column=6" />
-
-</div>
 
 ---
 
