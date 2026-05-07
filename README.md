@@ -218,6 +218,57 @@ const yunys = {
 
 <img src="./assets/neon-divider.svg" width="100%" alt="neon divider" />
 
+# 📊 GitHub Activity
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Yunys26&theme=github-dark&hide_border=true&area=true&custom_title=Yunys%20Aliev%20Contribution%20Graph&color=22c55e&line=22c55e&point=ffffff&area_color=22c55e" />
+
+</div>
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Yunys26&show_icons=true&theme=github_dark&hide_border=true&title_color=22c55e&icon_color=22c55e&text_color=ffffff" />
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yunys26&layout=compact&theme=github_dark&hide_border=true&title_color=22c55e&text_color=ffffff" />
+
+</div>
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=Yunys26&theme=github-dark-blue&hide_border=true&ring=22c55e&fire=22c55e&currStreakLabel=22c55e" />
+
+</div>
+
+<details>
+<summary><b>🏆 Click to expand: GitHub trophies</b></summary>
+
+<br />
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=Yunys26&theme=matrix&no-frame=true&no-bg=true&margin-w=12&margin-h=12&column=6" />
+
+</div>
+
+</details>
+
+<img src="./assets/neon-divider.svg" width="100%" alt="neon divider" />
+
+# 🧭 Architecture Development Roadmap
+
+> Click the diagram to open it in full size.  
+> In GitHub, you can open the SVG separately, zoom it and scroll around the full architecture roadmap.
+
+<div align="center">
+
+<a href="./assets/architecture-roadmap.svg">
+  <img src="./assets/architecture-roadmap.svg" width="100%" alt="architecture development roadmap" />
+</a>
+
+</div>
+
+
 # 🧠 Engineering DNA
 
 <div align="center">

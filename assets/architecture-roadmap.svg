@@ -1,0 +1,255 @@
+<svg width="2200" height="940" viewBox="0 0 2200 940" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mainLine" x1="0" y1="0" x2="2200" y2="0">
+      <stop offset="0%" stop-color="#22c55e" stop-opacity=".10"/>
+      <stop offset="50%" stop-color="#86efac" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#22c55e" stop-opacity=".10"/>
+    </linearGradient>
+
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#22c55e" stop-opacity=".35"/>
+      <stop offset="60%" stop-color="#16a34a" stop-opacity=".10"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#22c55e" stroke-width=".65" opacity=".12"/>
+    </pattern>
+
+    <style>
+      text {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      }
+
+      .card {
+        fill: #0f172a;
+        stroke: #22c55e;
+        stroke-opacity: .55;
+      }
+
+      .core {
+        fill: #020617;
+        stroke: #86efac;
+        stroke-opacity: .9;
+      }
+
+      .line {
+        stroke: url(#mainLine);
+        stroke-width: 4;
+        stroke-dasharray: 22 18;
+        animation: flow 9s linear infinite;
+        filter: url(#glow);
+      }
+
+      .soft-line {
+        stroke: #22c55e;
+        stroke-opacity: .32;
+        stroke-width: 2;
+        stroke-dasharray: 12 12;
+        animation: flow 12s linear infinite;
+      }
+
+      .pulse {
+        animation: pulse 3s ease-in-out infinite;
+      }
+
+      .pulse2 {
+        animation: pulse 4.2s ease-in-out infinite;
+      }
+
+      .float {
+        animation: float 5.4s ease-in-out infinite;
+      }
+
+      .float2 {
+        animation: float2 6.7s ease-in-out infinite;
+      }
+
+      @keyframes flow {
+        to {
+          stroke-dashoffset: -520;
+        }
+      }
+
+      @keyframes pulse {
+        0%, 100% {
+          opacity: .58;
+        }
+        50% {
+          opacity: 1;
+        }
+      }
+
+      @keyframes float {
+        0%, 100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-12px);
+        }
+      }
+
+      @keyframes float2 {
+        0%, 100% {
+          transform: translateX(0);
+        }
+        50% {
+          transform: translateX(15px);
+        }
+      }
+    </style>
+  </defs>
+
+  <rect width="2200" height="940" rx="36" fill="#020617"/>
+  <rect width="2200" height="940" rx="36" fill="url(#grid)"/>
+  <circle cx="1100" cy="470" r="420" fill="url(#coreGlow)" class="pulse"/>
+
+  <text x="1100" y="62" text-anchor="middle" fill="#ffffff" font-size="38" font-weight="900">
+    ARCHITECTURE DEVELOPMENT ROADMAP
+  </text>
+  <text x="1100" y="100" text-anchor="middle" fill="#86efac" font-size="17">
+    from business idea to production-ready system with logs, types, deployment and monitoring
+  </text>
+
+  <!-- Main pipeline lines -->
+  <path class="line" d="M235 260H470"/>
+  <path class="line" d="M650 260H885"/>
+  <path class="line" d="M1065 260H1300"/>
+  <path class="line" d="M1480 260H1715"/>
+  <path class="line" d="M1865 260H2020"/>
+
+  <path class="soft-line" d="M560 350V475H870"/>
+  <path class="soft-line" d="M1440 350V475H1330"/>
+  <path class="soft-line" d="M1100 565V705"/>
+  <path class="soft-line" d="M790 745H495"/>
+  <path class="soft-line" d="M1410 745H1705"/>
+
+  <!-- Top roadmap cards -->
+  <g transform="translate(65 185)" class="float">
+    <rect class="card" width="170" height="150" rx="22"/>
+    <text x="85" y="48" text-anchor="middle" font-size="32">💡</text>
+    <text x="85" y="86" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="900">IDEA</text>
+    <text x="85" y="114" text-anchor="middle" fill="#86efac" font-size="12">problem</text>
+    <text x="85" y="134" text-anchor="middle" fill="#86efac" font-size="12">business goal</text>
+  </g>
+
+  <g transform="translate(470 185)" class="float2">
+    <rect class="card" width="180" height="150" rx="22"/>
+    <text x="90" y="48" text-anchor="middle" font-size="32">🧩</text>
+    <text x="90" y="86" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="900">DOMAIN</text>
+    <text x="90" y="114" text-anchor="middle" fill="#86efac" font-size="12">entities</text>
+    <text x="90" y="134" text-anchor="middle" fill="#86efac" font-size="12">rules</text>
+  </g>
+
+  <g transform="translate(885 185)" class="float">
+    <rect class="card" width="180" height="150" rx="22"/>
+    <text x="90" y="48" text-anchor="middle" font-size="32">🧱</text>
+    <text x="90" y="86" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="900">DESIGN</text>
+    <text x="90" y="114" text-anchor="middle" fill="#86efac" font-size="12">types</text>
+    <text x="90" y="134" text-anchor="middle" fill="#86efac" font-size="12">contracts</text>
+  </g>
+
+  <g transform="translate(1300 185)" class="float2">
+    <rect class="card" width="180" height="150" rx="22"/>
+    <text x="90" y="48" text-anchor="middle" font-size="32">⚙️</text>
+    <text x="90" y="86" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="900">BUILD</text>
+    <text x="90" y="114" text-anchor="middle" fill="#86efac" font-size="12">services</text>
+    <text x="90" y="134" text-anchor="middle" fill="#86efac" font-size="12">integrations</text>
+  </g>
+
+  <g transform="translate(1715 185)" class="float">
+    <rect class="card" width="180" height="150" rx="22"/>
+    <text x="90" y="48" text-anchor="middle" font-size="32">🚀</text>
+    <text x="90" y="86" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="900">SHIP</text>
+    <text x="90" y="114" text-anchor="middle" fill="#86efac" font-size="12">Docker</text>
+    <text x="90" y="134" text-anchor="middle" fill="#86efac" font-size="12">Nginx</text>
+  </g>
+
+  <g transform="translate(2020 185)" class="float2">
+    <rect class="card" width="130" height="150" rx="22"/>
+    <text x="65" y="48" text-anchor="middle" font-size="32">📊</text>
+    <text x="65" y="86" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="900">OBSERVE</text>
+    <text x="65" y="114" text-anchor="middle" fill="#86efac" font-size="12">logs</text>
+    <text x="65" y="134" text-anchor="middle" fill="#86efac" font-size="12">alerts</text>
+  </g>
+
+  <!-- Core architecture -->
+  <g transform="translate(870 400)" class="pulse">
+    <rect class="core" width="460" height="170" rx="28" filter="url(#glow)"/>
+    <text x="230" y="48" text-anchor="middle" fill="#ffffff" font-size="26" font-weight="900">
+      CLEAN ARCHITECTURE CORE
+    </text>
+    <text x="230" y="86" text-anchor="middle" fill="#86efac" font-size="15">
+      business logic independent from UI and external APIs
+    </text>
+    <text x="230" y="120" text-anchor="middle" fill="#d1fae5" font-size="14">
+      typed services • isolated modules • predictable errors
+    </text>
+    <text x="230" y="148" text-anchor="middle" fill="#d1fae5" font-size="14">
+      logs first • rate-limit aware • deployable by design
+    </text>
+  </g>
+
+  <!-- Lower modules -->
+  <g transform="translate(235 670)" class="pulse2">
+    <rect class="card" width="260" height="135" rx="24"/>
+    <text x="24" y="42" fill="#ffffff" font-size="19" font-weight="900">🤖 Bot Layer</text>
+    <text x="24" y="75" fill="#86efac" font-size="14">commands • handlers</text>
+    <text x="24" y="100" fill="#86efac" font-size="14">middlewares • keyboards</text>
+  </g>
+
+  <g transform="translate(650 670)" class="pulse">
+    <rect class="card" width="260" height="135" rx="24"/>
+    <text x="24" y="42" fill="#ffffff" font-size="19" font-weight="900">🧠 Service Layer</text>
+    <text x="24" y="75" fill="#86efac" font-size="14">TRON • AML • exchanges</text>
+    <text x="24" y="100" fill="#86efac" font-size="14">Telegram • notifications</text>
+  </g>
+
+  <g transform="translate(1055 670)" class="pulse2">
+    <rect class="card" width="260" height="135" rx="24"/>
+    <text x="24" y="42" fill="#ffffff" font-size="19" font-weight="900">🗄 Data Layer</text>
+    <text x="24" y="75" fill="#86efac" font-size="14">Prisma • PostgreSQL</text>
+    <text x="24" y="100" fill="#86efac" font-size="14">repositories • models</text>
+  </g>
+
+  <g transform="translate(1460 670)" class="pulse">
+    <rect class="card" width="260" height="135" rx="24"/>
+    <text x="24" y="42" fill="#ffffff" font-size="19" font-weight="900">🐳 Deploy Layer</text>
+    <text x="24" y="75" fill="#86efac" font-size="14">Docker • Nginx • VPS</text>
+    <text x="24" y="100" fill="#86efac" font-size="14">GitHub Actions • SSL</text>
+  </g>
+
+  <g transform="translate(1820 670)" class="pulse2">
+    <rect class="card" width="260" height="135" rx="24"/>
+    <text x="24" y="42" fill="#ffffff" font-size="19" font-weight="900">📈 Runtime Layer</text>
+    <text x="24" y="75" fill="#86efac" font-size="14">structured logs</text>
+    <text x="24" y="100" fill="#86efac" font-size="14">alerts • diagnostics</text>
+  </g>
+
+  <!-- Notes -->
+  <g transform="translate(70 430)">
+    <rect width="390" height="130" rx="22" fill="#0f172a" stroke="#22c55e" stroke-opacity=".42"/>
+    <text x="24" y="40" fill="#ffffff" font-size="18" font-weight="900">Decision points</text>
+    <text x="24" y="72" fill="#86efac" font-size="14">• what must be automated?</text>
+    <text x="24" y="98" fill="#86efac" font-size="14">• what can fail?</text>
+    <text x="24" y="124" fill="#86efac" font-size="14">• what should be logged?</text>
+  </g>
+
+  <g transform="translate(1740 430)">
+    <rect width="390" height="130" rx="22" fill="#0f172a" stroke="#22c55e" stroke-opacity=".42"/>
+    <text x="24" y="40" fill="#ffffff" font-size="18" font-weight="900">Production checklist</text>
+    <text x="24" y="72" fill="#86efac" font-size="14">• typed config and env validation</text>
+    <text x="24" y="98" fill="#86efac" font-size="14">• retry and rate-limit strategy</text>
+    <text x="24" y="124" fill="#86efac" font-size="14">• deploy and rollback commands</text>
+  </g>
+
+  <rect x="1" y="1" width="2198" height="938" rx="36" stroke="#22c55e" stroke-opacity=".30"/>
+</svg>
