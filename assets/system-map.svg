@@ -46,14 +46,14 @@
     <rect class="node" width="140" height="144" rx="22"/>
     <text x="70" y="48" text-anchor="middle" fill="#ffffff" font-size="28">🧱</text>
     <text x="70" y="86" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="800">DESIGN</text>
-    <text x="70" y="114" text-anchor="middle" fill="#86efac" font-size="13">types & flow</text>
+    <text x="70" y="114" text-anchor="middle" fill="#86efac" font-size="13">types &amp; flow</text>
   </g>
 
   <g transform="translate(706 178)" class="pulse">
     <rect class="node" width="140" height="144" rx="22"/>
     <text x="70" y="48" text-anchor="middle" fill="#ffffff" font-size="28">⚙️</text>
     <text x="70" y="86" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="800">BUILD</text>
-    <text x="70" y="114" text-anchor="middle" fill="#86efac" font-size="13">services & APIs</text>
+    <text x="70" y="114" text-anchor="middle" fill="#86efac" font-size="13">services &amp; APIs</text>
   </g>
 
   <g transform="translate(1016 178)" class="pulse2">
