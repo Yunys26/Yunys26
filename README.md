@@ -27,7 +27,23 @@
 
 <img src="./assets/neon-divider.svg" width="100%" alt="neon divider" />
 
+## 🧭 Quick Navigation
+
+<div align="center">
+
+<a href="#-mission-control"><img src="https://img.shields.io/badge/Mission_Control-22c55e?style=for-the-badge&labelColor=020617" /></a>
+<a href="#-about-me"><img src="https://img.shields.io/badge/About_Me-16a34a?style=for-the-badge&labelColor=020617" /></a>
+<a href="#-tech-radar"><img src="https://img.shields.io/badge/Tech_Radar-84cc16?style=for-the-badge&labelColor=020617" /></a>
+<a href="#-what-i-build"><img src="https://img.shields.io/badge/What_I_Build-22c55e?style=for-the-badge&labelColor=020617" /></a>
+<a href="#-project-laboratory"><img src="https://img.shields.io/badge/Projects-16a34a?style=for-the-badge&labelColor=020617" /></a>
+
+</div>
+
+<img src="./assets/neon-divider.svg" width="100%" alt="neon divider" />
+
 # 🛰 Mission Control
+
+<img src="./assets/command-center.svg" width="100%" alt="animated command center" />
 
 <div align="center">
 
@@ -56,7 +72,10 @@ My favorite projects are systems where backend logic, business rules, infrastruc
 I do not like random code that only works once.  
 I prefer systems that are understandable, maintainable, observable and ready to grow.
 
-<div align="center">
+<details>
+<summary><b>🧠 Click to expand: my engineering mindset</b></summary>
+
+<br />
 
 | I care about | Why it matters |
 |---|---|
@@ -67,7 +86,7 @@ I prefer systems that are understandable, maintainable, observable and ready to 
 | 📦 Deployment | Local code should be easy to ship to production |
 | 🧠 Business logic | Code should solve a real problem, not just look nice |
 
-</div>
+</details>
 
 ```ts
 type FocusArea =
@@ -109,9 +128,14 @@ const yunys = {
 
 <img src="./assets/tech-radar.svg" width="100%" alt="animated tech radar" />
 
+<details open>
+<summary><b>🧰 Click to expand/collapse: Tech Arsenal</b></summary>
+
+<br />
+
 <div align="center">
 
-## Languages & Core
+### Languages & Core
 
 <img src="https://skillicons.dev/icons?i=ts,js,c,bash" />
 
@@ -122,7 +146,7 @@ const yunys = {
 <img src="https://img.shields.io/badge/C-learning_foundations-00599C?style=for-the-badge&logo=c&logoColor=white&labelColor=020617" />
 <img src="https://img.shields.io/badge/Bash-scripts_and_automation-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white&labelColor=020617" />
 
-## Backend
+### Backend
 
 <img src="https://skillicons.dev/icons?i=nodejs,express,prisma,postgres" />
 
@@ -134,7 +158,7 @@ const yunys = {
 <img src="https://img.shields.io/badge/PostgreSQL-database-4169E1?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=020617" />
 <img src="https://img.shields.io/badge/Axios-api_client-5A29E4?style=for-the-badge&logo=axios&logoColor=white&labelColor=020617" />
 
-## Frontend
+### Frontend
 
 <img src="https://skillicons.dev/icons?i=react,nextjs,html,css,tailwind" />
 
@@ -145,7 +169,7 @@ const yunys = {
 <img src="https://img.shields.io/badge/Ant_Design-enterprise_ui-1677FF?style=for-the-badge&logo=antdesign&logoColor=white&labelColor=020617" />
 <img src="https://img.shields.io/badge/i18n-next--intl-22c55e?style=for-the-badge&labelColor=020617" />
 
-## DevOps & Infrastructure
+### DevOps & Infrastructure
 
 <img src="https://skillicons.dev/icons?i=docker,nginx,githubactions,vercel,cloudflare,linux,git,github,vscode" />
 
@@ -157,7 +181,7 @@ const yunys = {
 <img src="https://img.shields.io/badge/Vercel-deployments-ffffff?style=for-the-badge&logo=vercel&logoColor=white&labelColor=020617" />
 <img src="https://img.shields.io/badge/Linux-server_work-000000?style=for-the-badge&logo=linux&logoColor=white&labelColor=020617" />
 
-## Crypto & APIs
+### Crypto & APIs
 
 <img src="https://img.shields.io/badge/TRON-network-EF0027?style=for-the-badge&logo=tron&logoColor=white&labelColor=020617" />
 <img src="https://img.shields.io/badge/USDT_TRC20-monitoring-50AF95?style=for-the-badge&logo=tether&logoColor=white&labelColor=020617" />
@@ -168,6 +192,8 @@ const yunys = {
 <img src="https://img.shields.io/badge/AML-risk_scoring-16a34a?style=for-the-badge&logo=shield&logoColor=white&labelColor=020617" />
 
 </div>
+
+</details>
 
 <img src="./assets/neon-divider.svg" width="100%" alt="neon divider" />
 
@@ -188,7 +214,7 @@ const yunys = {
 
 </div>
 
-<img src="./assets/pipeline.svg" width="100%" alt="animated production pipeline" />
+<img src="./assets/system-map.svg" width="100%" alt="animated build map" />
 
 <img src="./assets/neon-divider.svg" width="100%" alt="neon divider" />
 
@@ -207,8 +233,6 @@ const yunys = {
 | 🚀 Deploy | Docker first, documented commands, reproducible setup |
 
 </div>
-
-<img src="./assets/architecture.svg" width="100%" alt="animated architecture diagram" />
 
 ---
 
@@ -242,9 +266,8 @@ const yunys = {
 
 </div>
 
----
-
-# 🧱 Architecture Style
+<details>
+<summary><b>📂 Click to expand: project architecture style</b></summary>
 
 ```txt
 src/
@@ -269,6 +292,8 @@ src/
 │   └── retry/
 └── index.ts
 ```
+
+</details>
 
 <img src="./assets/terminal.svg" width="100%" alt="animated terminal profile" />
 

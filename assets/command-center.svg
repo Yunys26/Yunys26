@@ -1,0 +1,91 @@
+<svg width="1400" height="620" viewBox="0 0 1400 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="center" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22c55e" stop-opacity=".26"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace}
+      .ring{transform-origin:700px 330px;animation:spin 24s linear infinite}
+      .ring2{transform-origin:700px 330px;animation:spin 36s linear infinite reverse}
+      .pulse{animation:pulse 3s ease-in-out infinite}
+      .line{stroke:#22c55e;stroke-width:2;stroke-dasharray:14 14;animation:flow 8s linear infinite;filter:url(#glow)}
+      @keyframes spin{to{transform:rotate(360deg)}}
+      @keyframes pulse{0%,100%{opacity:.52}50%{opacity:1}}
+      @keyframes flow{to{stroke-dashoffset:-320}}
+    </style>
+  </defs>
+  <rect width="1400" height="620" rx="32" fill="#020617"/>
+  <circle cx="700" cy="330" r="260" fill="url(#center)" class="pulse"/>
+  <circle cx="700" cy="330" r="92" stroke="#22c55e" stroke-opacity=".32"/>
+  <circle cx="700" cy="330" r="170" stroke="#22c55e" stroke-opacity=".24"/>
+  <circle cx="700" cy="330" r="250" stroke="#22c55e" stroke-opacity=".18"/>
+  <text x="700" y="58" text-anchor="middle" fill="#ffffff" font-size="34" font-weight="900">COMMAND CENTER</text>
+  <text x="700" y="92" text-anchor="middle" fill="#86efac" font-size="16">what my systems are usually built from</text>
+
+  <g class="ring">
+    <circle cx="700" cy="80" r="5" fill="#86efac" filter="url(#glow)"/>
+    <circle cx="950" cy="330" r="5" fill="#22c55e" filter="url(#glow)"/>
+    <circle cx="700" cy="580" r="5" fill="#84cc16" filter="url(#glow)"/>
+    <circle cx="450" cy="330" r="5" fill="#86efac" filter="url(#glow)"/>
+  </g>
+  <g class="ring2">
+    <circle cx="876" cy="154" r="4" fill="#22c55e" filter="url(#glow)"/>
+    <circle cx="876" cy="506" r="4" fill="#86efac" filter="url(#glow)"/>
+    <circle cx="524" cy="506" r="4" fill="#22c55e" filter="url(#glow)"/>
+    <circle cx="524" cy="154" r="4" fill="#86efac" filter="url(#glow)"/>
+  </g>
+
+  <path d="M700 330L330 190" class="line"/><path d="M700 330L1070 190" class="line"/><path d="M700 330L330 470" class="line"/><path d="M700 330L1070 470" class="line"/>
+  <path d="M700 330L700 150" class="line"/><path d="M700 330L700 510" class="line"/>
+
+  <g transform="translate(575 250)" class="pulse">
+    <rect width="250" height="160" rx="26" fill="#0f172a" stroke="#22c55e" stroke-opacity=".7"/>
+    <text x="125" y="55" text-anchor="middle" fill="#ffffff" font-size="25" font-weight="900">CORE</text>
+    <text x="125" y="92" text-anchor="middle" fill="#86efac" font-size="15">TypeScript</text>
+    <text x="125" y="120" text-anchor="middle" fill="#86efac" font-size="15">Architecture</text>
+  </g>
+
+  <g transform="translate(120 130)" class="pulse">
+    <rect width="260" height="125" rx="22" fill="#0f172a" stroke="#22c55e" stroke-opacity=".55"/>
+    <text x="24" y="42" fill="#ffffff" font-size="19" font-weight="900">🤖 Telegram Bots</text>
+    <text x="24" y="75" fill="#86efac" font-size="14">Telegraf • alerts • keyboards</text>
+    <text x="24" y="100" fill="#86efac" font-size="14">commands • middlewares</text>
+  </g>
+
+  <g transform="translate(1020 130)" class="pulse">
+    <rect width="260" height="125" rx="22" fill="#0f172a" stroke="#22c55e" stroke-opacity=".55"/>
+    <text x="24" y="42" fill="#ffffff" font-size="19" font-weight="900">₮ Crypto Tools</text>
+    <text x="24" y="75" fill="#86efac" font-size="14">TRON • USDT TRC20</text>
+    <text x="24" y="100" fill="#86efac" font-size="14">exchange APIs</text>
+  </g>
+
+  <g transform="translate(120 410)" class="pulse">
+    <rect width="260" height="125" rx="22" fill="#0f172a" stroke="#22c55e" stroke-opacity=".55"/>
+    <text x="24" y="42" fill="#ffffff" font-size="19" font-weight="900">🛡 AML Checks</text>
+    <text x="24" y="75" fill="#86efac" font-size="14">wallet datasets</text>
+    <text x="24" y="100" fill="#86efac" font-size="14">risk labels • scoring</text>
+  </g>
+
+  <g transform="translate(1020 410)" class="pulse">
+    <rect width="260" height="125" rx="22" fill="#0f172a" stroke="#22c55e" stroke-opacity=".55"/>
+    <text x="24" y="42" fill="#ffffff" font-size="19" font-weight="900">🐳 Infrastructure</text>
+    <text x="24" y="75" fill="#86efac" font-size="14">Docker • Nginx • VPS</text>
+    <text x="24" y="100" fill="#86efac" font-size="14">GitHub Actions • SSL</text>
+  </g>
+
+  <g transform="translate(570 125)" class="pulse">
+    <rect width="260" height="100" rx="22" fill="#0f172a" stroke="#22c55e" stroke-opacity=".55"/>
+    <text x="130" y="42" text-anchor="middle" fill="#ffffff" font-size="19" font-weight="900">🌐 Web UI</text>
+    <text x="130" y="72" text-anchor="middle" fill="#86efac" font-size="14">Next.js • React • SEO</text>
+  </g>
+
+  <g transform="translate(570 480)" class="pulse">
+    <rect width="260" height="100" rx="22" fill="#0f172a" stroke="#22c55e" stroke-opacity=".55"/>
+    <text x="130" y="42" text-anchor="middle" fill="#ffffff" font-size="19" font-weight="900">📊 Observability</text>
+    <text x="130" y="72" text-anchor="middle" fill="#86efac" font-size="14">logs • diagnostics • alerts</text>
+  </g>
+
+  <rect x="1" y="1" width="1398" height="618" rx="32" stroke="#22c55e" stroke-opacity=".3"/>
+</svg>
